@@ -2,13 +2,29 @@
   --main-color: #fffcfc; /* Light background color */
   --accent-color1: #bd8ff3; /* Lighter purple for accents */
   --accent-color2: #8f41e3; /* Darker purple for primary actions or highlights */
-  --font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+  --font-family: 'Poppins', sans-serif;
+  
+  
+  /* ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   font-family: var(--font-family);
   color: black; /* Using the darker purple as the default text color */
   background-color: var(--main-color); /* Light background for the body */
+}
+
+html {
+  scroll-behavior: smooth;
 }

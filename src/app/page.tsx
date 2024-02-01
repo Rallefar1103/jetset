@@ -1,5 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import Navbar from "@/components/Navbar/navbar";
 import Landing from "@/components/Landing/landing";
 import Pricing from "@/components/Pricing/pricing";
