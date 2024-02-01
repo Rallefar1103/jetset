@@ -1,0 +1,12 @@
+.callToAction {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5vw;
+    background: linear-gradient(
+        to bottom left, rgb(40, 11, 40), rgb(39, 37, 149)
+      );
+}

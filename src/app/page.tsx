@@ -8,6 +8,7 @@ import Blog from "@/components/Blog/blog";
 import Footer from "@/components/Footer/footer";
 import IntroWoman from "@/components/IntroWoman/introWoman";
 import Products from "@/components/Products/products";
+import CallToAction from "@/components/CallToAction/callToAction";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Intro />
         <IntroWoman />
         <Products />
+        <CallToAction />
         <Pricing />
         <Favorites />
         <FrequentFlyer />

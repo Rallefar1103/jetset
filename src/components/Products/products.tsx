@@ -11,9 +11,9 @@ const Products = () => {
   return (
     <main className={styles.products}>
       <div className={styles.title}>
-        <h2>Jetset Products</h2>
+        <h2>Our Promise</h2>
         <h3>
-          We handpick only the{" "}
+          We handpick products of only the{" "}
           <span className={styles.quality}>highest quality</span>
         </h3>
       </div>
