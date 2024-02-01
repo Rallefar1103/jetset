@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./landing.module.css";
 
 import BackgroundImg from "../../assets/jetset/airplane-sky1.jpg";
-import LandingPagePicture from "../../assets/jetset/landingPage/woman-with-luggage.png";
+import LandingPagePicture from "../../assets/jetset/landingPage/girl-with-bag.png";
 
 const Landing = () => {
   return (
@@ -16,7 +16,9 @@ const Landing = () => {
             <span className={styles.emphasized}>Great Start</span>
           </h3>
         </div>
-        <div className={styles.learnMoreBtn}></div>
+        <button type="button" className={styles.learnMoreBtn}>
+          Learn more
+        </button>
       </div>
       <div className={styles.rightLandingPage}>
         <div className={styles.pictureContainer}>

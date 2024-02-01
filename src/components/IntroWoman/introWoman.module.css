@@ -1,0 +1,48 @@
+.intro {
+    width: 100%;
+    height: 80vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: linear-gradient(to bottom right, #8321c4, #569cd2);
+}
+
+.introLeft {
+    width: 50vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.introPicture {
+    width: 90%;
+    height: 90vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.introRight {
+    position: relative;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 50vw;
+    height: 100vh;  
+    margin-bottom: 5vh;
+}
+
+.tagLine {
+    width: 29vw;
+    height: 20vh;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.8vw;
+    font-weight: 500;
+    color: white;
+}
+

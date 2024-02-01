@@ -8,10 +8,8 @@
     overflow: hidden; 
     justify-content: space-between; 
     flex-direction: row;
-    background: linear-gradient(to bottom right,#8321c4, #569cd2);;
+    background: linear-gradient(to bottom right,#8321c4, #569cd2);
 }
-
-
 
 .leftLandingPage {
     max-width: 55vw;
@@ -46,16 +44,34 @@
 
 .pictureContainer {
     position: absolute;
-    width: 40vw; 
-    height: 40vw; 
-    top: -21%;
+    width: 34vw; 
+    height: 34vw; 
+    top: -5%;
     right: 5%; 
     border: none;
 }
+
 .landingPagePicture {
     width: 100%;
     height: auto; 
     object-fit: cover;
     border: none;
+}
+
+.learnMoreBtn {
+    margin-left: 2vw;
+    margin-top: 4vh;
+    padding-top: 1vh;
+    padding-left: 2vw;
+    padding-bottom: 1vh;
+    padding-right: 2vw;
+    border-radius: 25px;
+    border: 3px solid #ecbb5f; 
+    color: black;
+    background-color: #ecbb5f; 
+    cursor: pointer; 
+    text-decoration: none; 
+    font-weight: 500;
+    font-size: 1.1vw;
 }
 

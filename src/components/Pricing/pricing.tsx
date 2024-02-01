@@ -1,7 +1,8 @@
 import React from "react";
+import styles from "./pricing.module.css";
 
 const Pricing = () => {
-  return <div>Pricing</div>;
+  return <main className={styles.pricing}></main>;
 };
 
 export default Pricing;

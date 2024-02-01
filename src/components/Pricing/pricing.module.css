@@ -1,0 +1,11 @@
+.pricing {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: linear-gradient(
+        to bottom,rgb(230, 192, 198), rgb(238, 235, 235)
+      );
+}
