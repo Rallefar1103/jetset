@@ -1,12 +1,25 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Navbar from "@/components/Navbar/navbar";
+import Landing from "@/components/Landing/landing";
+import Pricing from "@/components/Pricing/pricing";
+import Favorites from "@/components/Favorites/favorites";
+import FrequentFlyer from "@/components/FrequentFlyer/frequentFlyer";
+import Blog from "@/components/Blog/blog";
+import Footer from "@/components/Footer/footer";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p> Landing Page </p>
-      </div>
-    </main>
+    <div>
+      <Navbar />
+      <main>
+        <Landing />
+        <Pricing />
+        <Favorites />
+        <FrequentFlyer />
+        <Blog />
+      </main>
+      <Footer />
+    </div>
   );
 }
