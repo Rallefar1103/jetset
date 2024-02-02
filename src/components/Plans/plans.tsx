@@ -1,44 +1,53 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import styles from "./plans.module.css";
-import SubscriptionSlider from "./subscriptionSlider";
-
-type SubscriptionPlan = "monthly" | "quarterly";
+import SubscriptionSlider from "./SubscriptionSlider/subscriptionSlider";
+import Image from "next/image";
+import CheckMarkIcon from "../../assets/jetset/check-mark.png";
 
 const Plans = () => {
-  const [activePlan, setActivePlan] = useState<SubscriptionPlan>("monthly"); // default to monthly
-
-  const handlePlanChange = (plan: SubscriptionPlan) => {
-    setActivePlan(plan);
-  };
   return (
     <main className={styles.plans}>
       <div className={styles.intro}>
         <h3>
-          Select a plan based on your needs and travel frequency. We offer plans
-          ranging from gold, emerald, and diamond
+          Tailor Your Travels and Define Your Journey with Our Gold, Diamond, or
+          Emerald Travel Plans.
         </h3>
       </div>
-      <div className={styles.sliderContainer}>
-        <button
-          type="button"
-          className={`${styles.sliderBtn} ${
-            activePlan === "monthly" ? styles.active : ""
-          }`}
-          onClick={() => handlePlanChange("monthly")}
-        >
-          Monthly
-        </button>
-        <button
-          type="button"
-          className={`${styles.sliderBtn} ${
-            activePlan === "quarterly" ? styles.active : ""
-          }`}
-          onClick={() => handlePlanChange("quarterly")}
-        >
-          Quarterly
-        </button>
+      <SubscriptionSlider />
+      <div className={styles.plansContainer}>
+        <div className={styles.planCard}>
+          <div className={styles.planTierRow}>
+            <div className={styles.planTier}>
+              <h3>Gold</h3>
+            </div>
+          </div>
+
+          <div className={styles.planText}>
+            <p>
+              Embark on your travel adventures with the Gold Plan, designed for
+              the smart traveler who values both quality and economy.
+            </p>
+          </div>
+          <div className={styles.planPrice}>
+            <h2>
+              $2500<span className={styles.monthly}>/month</span>
+            </h2>
+          </div>
+          <div className={styles.whiteHorizontalBar}></div>
+          <div className={styles.planBenefits}>
+            <div className={styles.benefitRow}>
+              <Image
+                src={CheckMarkIcon}
+                alt="checkmark-icon"
+                className={styles.checkMarkIcon}
+              />
+              <p>Benefit </p>
+            </div>
+          </div>
+          <div className={styles.planCallToAction}></div>
+        </div>
       </div>
     </main>
   );

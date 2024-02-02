@@ -23,7 +23,7 @@ const CallToAction = () => {
         <p>
           {" "}
           Ready for <span className={styles.takeOff}>Takeoff?</span> <br />
-          Get Your Jetset Bag Today!{" "}
+          Become a Jetsetter today!{" "}
         </p>
         <button type="button" className={styles.signUpBtn}>
           Sign up
