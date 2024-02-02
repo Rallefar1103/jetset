@@ -186,5 +186,35 @@
   flex-direction: column;
 }
 
+.jetsetPresentation {
+  width: 95%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
 
+.presentationLeft {
+  width: 60%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.presentationLeft p {
+  font-size: 1vw;
+}
+
+.presentationRight {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10vh;
+}
 

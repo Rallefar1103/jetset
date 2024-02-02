@@ -63,6 +63,18 @@ const Products = () => {
         </div>
         <div className={styles.pFiveRight}></div>
       </div>
+      <div className={styles.jetsetPresentation}>
+        <div className={styles.presentationLeft}>
+          <p>Presenting the Jetset bag</p>
+        </div>
+        <div className={styles.presentationRight}>
+          <Image
+            src={MenFragrance}
+            alt="product-img"
+            className={styles.productImg}
+          />
+        </div>
+      </div>
     </main>
   );
 };

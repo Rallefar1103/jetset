@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./introWoman.module.css";
 import Image from "next/image";
-import Woman from "../../assets/jetset/landingPage/woman-pink-blazer-travel.jpg";
+import Woman from "../../assets/jetset/young-vintage-woman-boarding-jet.jpeg";
 
 const IntroWoman = () => {
   return (
