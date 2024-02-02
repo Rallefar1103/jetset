@@ -40,12 +40,12 @@
 }
 
 .tagLine {
-    width: 29vw;
+    width: 31vw;
     height: 20vh;
     flex-direction: column;
     text-align: left;
     font-size: 1.8vw;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
 }
 
