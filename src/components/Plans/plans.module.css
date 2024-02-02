@@ -12,7 +12,7 @@
 
 .intro {
   height: 10vh;
-  width: 35vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,8 +22,8 @@
 
 .intro h3 {
   color: white;
-  font-weight: 700;
-  font-size: 1.3vw;
+  font-weight: 500;
+  font-size: 2vw;
   text-align: center;
 }
 
@@ -32,120 +32,7 @@
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-}
-
-.planCard {
-  width: 25%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  border: 2px solid rgb(75, 74, 74);
-  border-radius: 25px;
-  background: rgb(230, 225, 225);
-  padding: 1vw;
-}
-
-.planTierRow {
-  width: 100%;
-  height: 8vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
- 
-}
-
-.planTier {
-  width: 20%;
-  height: 5vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background: rgb(99, 50, 178);
-  border-radius: 25px;
-}
-
-.planTier h3 {
-  color:white;
-  font-weight: 500;
-  font-size: 1vw;
-}
-
-.planText {
-  width: 100%;
-  height: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.planText p {
-  color: rgb(42, 41, 41);
-  font-weight: 500;
-  font-size: 1vw;
-
-}
-
-.planPrice {
-  width: 100%;
-  height: 15vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.planPrice h2 {
-  font-weight: 500;
-  font-size: 2.5vw;
-}
-
-.monthly {
-  font-size: 1vw;
-  font-weight: 500;
-  color: grey;
-}
-
-.whiteHorizontalBar {
-  height: 0.2vh; 
-  background-color: grey;
-  width: 100%;
-  margin-bottom: 2vh; 
-}
-
-.planBenefits {
-  width: 100%;
-  height: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.benefitRow {
-  width: 100%;
-  height: 5vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.checkMarkIcon {
-  height: 1vw; 
-  width: 1vw; 
-  margin-right: 1vw;
-}
-
-.benefitRow {
-  color: black;
-  font-size: 1vw;
-  font-weight: 300;
-}

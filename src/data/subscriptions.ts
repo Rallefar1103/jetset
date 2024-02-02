@@ -1,4 +1,13 @@
-let subscriptionTiers = [
+export type PlanType = "Gold" | "Diamond" | "Emerald";
+
+export type SubscriptionTier = {
+  tier: PlanType;
+  description: string;
+  price: string;
+  benefits: string[];
+};
+
+let subscriptionTiers: SubscriptionTier[] = [
   {
     tier: "Gold",
     description:
@@ -8,14 +17,14 @@ let subscriptionTiers = [
       "Priority Customer Support",
       "Complimentary access to biannual Jetset product releases",
       "Exclusive Discounts on Partner Services",
-      "1-year extended warranty on all Jetset travel bags",
+      "One-year extended warranty on all Jetset travel bags",
       "Free subscription to the Member-Only newsletter",
     ],
   },
   {
     tier: "Diamond",
     description:
-      "Step up to our Diamond Plan, where enhanced luxury meets practicality for the seasoned traveler. Experience advanced benefits, including early access to new products and special promotions.",
+      "Experience advanced benefits, including early access to new products and special promotions.",
     price: "$319",
     benefits: [
       "Unlimited access to Seasonal Jetset Collections",
@@ -28,7 +37,7 @@ let subscriptionTiers = [
   {
     tier: "Emerald",
     description:
-      "Catered to the elite JetSet traveler, this plan offers an exclusive collection of the finest travel bags, access to limited edition products, and personalized customer service from our travel concierge team.",
+      "Enjoy exclusive collections of the finest travel bags, access to limited edition products, and personalized customer service.",
     price: "$499",
     benefits: [
       "First-class access to all Jetset releases",
