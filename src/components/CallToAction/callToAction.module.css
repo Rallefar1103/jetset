@@ -1,12 +1,71 @@
 .callToAction {
-    width: 100%;
+    width: 100vw;
     height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding-left: 5vw;
+    flex-direction: row;
+    padding-left: 2vw;
     background: linear-gradient(
-        to bottom left, rgb(40, 11, 40), rgb(39, 37, 149)
+        to bottom left, rgb(117, 40, 117), rgb(39, 37, 149)
       );
+}
+
+.classyLeft {
+  width:60%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.classyImgWoman {
+  position: relative;
+  width: 60%;
+  height: 90%;
+  top: -15%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 
+    5px 0px 10px #c9b5cf;
+    transition: transform 0.3s ease;
+}
+
+.classyImgMan {
+  position: relative;
+  width: 60%;
+  height: 90%;
+  top: 10%;
+  left: 5%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 
+    5px 0px 10px #c9b5cf;
+    transition: transform 0.3s ease;
+
+}
+
+.classyImgMan:hover {
+  transform: translateY(-1vw);
+}
+
+.classyImgWoman:hover {
+  transform: translateY(-1vw);
+}
+
+.classyRight {
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.classyRight p {
+  font-size: 4vw;
+  font-weight: 300;
+  color: white;
 }
