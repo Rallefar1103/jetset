@@ -20,7 +20,14 @@ const CallToAction = () => {
         />
       </div>
       <div className={styles.classyRight}>
-        <p> Call to action </p>
+        <p>
+          {" "}
+          Ready for <span className={styles.takeOff}>Takeoff?</span> <br />
+          Get Your Jetset Bag Today!{" "}
+        </p>
+        <button type="button" className={styles.signUpBtn}>
+          Sign up
+        </button>
       </div>
     </main>
   );

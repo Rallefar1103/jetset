@@ -6,6 +6,6 @@
     justify-content: center;
     flex-direction: row;
     background: linear-gradient(
-        to bottom,rgb(230, 192, 198), rgb(238, 235, 235)
+        to bottom right,rgb(95, 64, 99), rgb(188, 121, 198)
       );
 }

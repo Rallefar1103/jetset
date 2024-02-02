@@ -17,10 +17,10 @@ const Navbar = () => {
           Home
         </Link>
         <Link href="#pricing" className={styles.link}>
-          Plans
+          Products
         </Link>
         <Link href="#favorites" className={styles.link}>
-          Favorites
+          Plans
         </Link>
         <Link href="#frequent-flyer" className={styles.link}>
           Frequent Flyer
