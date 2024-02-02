@@ -7,7 +7,7 @@
     flex-direction: column;
     padding-left: 5vw;
     background: linear-gradient(
-        to bottom right, rgb(41, 40, 139), rgb(40, 11, 40)
+        to bottom right, rgb(41, 40, 139), rgb(126, 37, 126)
       );
 }
 
@@ -30,7 +30,7 @@
   font-size: 2vw;
   color: rgb(245, 239, 239);
   font-weight: 800;
-  margin-bottom: 7vh;
+  margin-bottom: 2vh;
 }
 
 .quality {
@@ -49,16 +49,16 @@
 
 .productOneContainer {
   width: 95%;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-bottom: 4vh;
 }
+
 .pOneLeft {
-  width: 70%;
-  height: 70vh;
+  width: 50%;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,8 +66,8 @@
 }
 
 .pOneRight {
-  width: 30%;
-  height: 70vh;
+  width: 50%;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,7 +76,7 @@
 
 .productTwoContainer {
   width: 95%;
-  height: 65vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -84,8 +84,8 @@
 }
 
 .pTwoLeft {
-  width: 60%;
-  height: 65vh;
+  width: 50%;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,17 +93,18 @@
 }
 
 .pTwoRight {
-  width: 40%;
-  height: 65vh;
+  width: 30%;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom:  45vh;
 }
 
 .productThreeContainer {
   width: 95%;
-  height: 50vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -111,13 +112,14 @@
 }
 
 .pThreeLeft {
-  width: 30%;
-  height: 70vh;
+  width: 25%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 45vh;
+  margin-bottom: 60vh;
+  margin-left: 5vw;
 }
 
 .pThreeRight {
@@ -154,8 +156,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 65vh;
   margin-right: 10vw;
+  position: relative;
+  top: -95%
 }
 
 .productFiveContainer {
@@ -174,7 +177,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 45vh;
+  position: relative;
+  top: -95%
 }
 
 .pFiveRight {
@@ -188,7 +192,7 @@
 
 .jetsetPresentation {
   width: 95%;
-  height: 80vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -197,11 +201,13 @@
 
 .presentationLeft {
   width: 60%;
-  height: 80vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  top: -50%
 }
 
 .presentationLeft p {
@@ -215,6 +221,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 10vh;
+  position: relative;
+  top: -50%
 }
 

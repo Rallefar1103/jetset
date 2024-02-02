@@ -6,6 +6,7 @@ import WomenFragrance from "../../assets/jetset/products/fragrance-women.jpg";
 import ToothbrushSet from "../../assets/jetset/products/toothbrush-and-paste.jpg";
 import WomenSkinCareSet from "../../assets/jetset/products/skincare-set-women.jpg";
 import MenFragrance from "../../assets/jetset/products/vertos-fragrance.jpg";
+import JetSetBag from "../../assets/jetset/products/the-jetset-bag.jpeg";
 
 const Products = () => {
   return (
@@ -69,7 +70,7 @@ const Products = () => {
         </div>
         <div className={styles.presentationRight}>
           <Image
-            src={MenFragrance}
+            src={JetSetBag}
             alt="product-img"
             className={styles.productImg}
           />
