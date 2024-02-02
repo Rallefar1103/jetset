@@ -22,10 +22,20 @@ const Products = () => {
         <div className={styles.pOneLeft}>
           <Image src={Lumin} alt="product-img" className={styles.productImg} />
         </div>
-        <div className={styles.pOneRight}></div>
+        <div className={styles.pOneRight}>
+          <p>
+            All your <span className={styles.quality}>essentials, </span>
+            elevated
+          </p>
+        </div>
       </div>
       <div className={styles.productTwoContainer}>
-        <div className={styles.pTwoLeft}></div>
+        <div className={styles.pTwoLeft}>
+          <p>
+            Curated for comfort and{" "}
+            <span className={styles.quality}>exclusivity</span>
+          </p>
+        </div>
         <div className={styles.pTwoRight}>
           <Image
             src={WomenFragrance}
@@ -62,17 +72,27 @@ const Products = () => {
             className={styles.productImg}
           />
         </div>
-        <div className={styles.pFiveRight}></div>
+        <div className={styles.pFiveRight}>
+          <p>
+            {" "}
+            a guarantee of <span className={styles.quality}>luxury</span> in
+            every bag
+          </p>
+        </div>
       </div>
       <div className={styles.jetsetPresentation}>
         <div className={styles.presentationLeft}>
-          <p>Presenting the Jetset bag</p>
+          <p>
+            Traveling in <span className={styles.quality}>style</span> has never
+            <br />
+            been this easy
+          </p>
         </div>
         <div className={styles.presentationRight}>
           <Image
             src={JetSetBag}
-            alt="product-img"
-            className={styles.productImg}
+            alt="jetset-img"
+            className={styles.jetsetImg}
           />
         </div>
       </div>

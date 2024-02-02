@@ -19,8 +19,8 @@ export default function Home() {
         <Intro />
         <IntroWoman />
         <Products />
-        <CallToAction />
         <Pricing />
+        <CallToAction />
         <Favorites />
         <FrequentFlyer />
         <Blog />

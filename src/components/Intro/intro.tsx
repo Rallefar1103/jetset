@@ -20,7 +20,7 @@ const Intro = () => {
       <div className={styles.introRight}>
         <div className={styles.tagLine}>
           <p>
-            For the frequent flyer who steps off as sharp as they stepped on
+            For the frequent flyer who steps off as sharp as he stepped on
             Jetset will keep you feeling great all the way 👔
           </p>
         </div>
